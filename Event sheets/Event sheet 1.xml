@@ -10,8 +10,8 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Spawn another object" sid="753693433222452" type="Sprite2">
-                    <param id="0" name="Object">Sprite</param>
+                <action id="0" name="Spawn another object" sid="753693433222452" type="bolsos">
+                    <param id="0" name="Object">merda</param>
                     <param id="1" name="Layer">0</param>
                     <param id="2" name="Image point">1</param>
                 </action>
@@ -19,12 +19,26 @@
         </event-block>
         <event-block sid="807748712717284">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="343315608453081" type="Sprite">
-                    <param id="0" name="Object">Sprite3</param>
+                <condition id="1" name="Is overlapping another object" sid="343315608453081" type="merda">
+                    <param id="0" name="Object">wentraubinho</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Physics" id="0" name="Apply force" sid="202989728995232" type="Sprite">
+                <action behavior="Physics" id="0" name="Apply force" sid="202989728995232" type="merda">
+                    <param id="0" name="Force X">random(-300,300)</param>
+                    <param id="1" name="Force Y">-600</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="623712498780062">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="947404427726676" type="merda">
+                    <param id="0" name="Object">damares</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="0" name="Apply force" sid="868954711944136" type="merda">
                     <param id="0" name="Force X">random(-300,300)</param>
                     <param id="1" name="Force Y">-600</param>
                     <param id="2" name="Image point">0</param>
@@ -33,12 +47,12 @@
         </event-block>
         <event-block sid="424789400181579">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="674814451901890" type="Sprite">
-                    <param id="0" name="Object">Sprite4</param>
+                <condition id="1" name="Is overlapping another object" sid="674814451901890" type="merda">
+                    <param id="0" name="Object">bolsominion</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Physics" id="0" name="Apply force" sid="464788943960810" type="Sprite">
+                <action behavior="Physics" id="0" name="Apply force" sid="464788943960810" type="merda">
                     <param id="0" name="Force X">random(-300,300)</param>
                     <param id="1" name="Force Y">-600</param>
                     <param id="2" name="Image point">0</param>
@@ -52,7 +66,19 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Set Y" sid="986177258764943" type="Sprite3">
+                <action id="-2" name="Set Y" sid="986177258764943" type="wentraubinho">
+                    <param id="0" name="Y">WindowHeight/2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="142334937016117">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="242694676484913" type="Keyboard">
+                    <param id="0" name="Key">68</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="445722373582202" type="damares">
                     <param id="0" name="Y">WindowHeight/2</param>
                 </action>
             </actions>
@@ -64,19 +90,29 @@
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Bullet" id="5" name="Set enabled" sid="596160026799165" type="Sprite5">
+                <action behavior="Bullet" id="5" name="Set enabled" sid="596160026799165" type="caneta">
                     <param id="0" name="State">1</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="889585132003701">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="492122598902681" type="Sprite5">
-                    <param id="0" name="Object">Sprite3</param>
+                <condition id="1" name="Is overlapping another object" sid="492122598902681" type="caneta">
+                    <param id="0" name="Object">wentraubinho</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="283013624467549" type="Sprite3" />
+                <action id="-9" name="Destroy" sid="283013624467549" type="wentraubinho" />
+            </actions>
+        </event-block>
+        <event-block sid="895196631381296">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="450289009642508" type="caneta">
+                    <param id="0" name="Object">damares</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="157290561501696" type="damares" />
             </actions>
         </event-block>
     </events>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
-    <name>New project</name>
+    <name>ChuvaDeMerda</name>
     <description></description>
     <version>1.0.0.0</version>
     <author></author>
@@ -46,7 +46,7 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="Sprite" sid="436131140770591">
+        <object-type name="merda" sid="436131140770591">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Physics" sid="688385809062913">
@@ -59,7 +59,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite2" sid="912287455456816">
+        <object-type name="bolsos" sid="912287455456816">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Sine" sid="318267811799706">
@@ -67,14 +67,20 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="663560668927320" speed="5">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="663560668927320" speed="0">
                     <frame duration="1" hotspotX="0.532258" hotspotY="0.565022">
                         <image-point name="Boca" x="0.564516" y="0.713004" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500701">
+                        <image-point name="Boca" x="0.246512" y="0.523142" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501618">
+                        <image-point name="Boca" x="0.534091" y="0.754045" />
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite3" sid="637017681380740">
+        <object-type name="wentraubinho" sid="637017681380740">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Sine" sid="264250152332521">
@@ -82,12 +88,12 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="282272919151553" speed="5">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="282272919151553" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.351563" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite4" sid="977243989516247">
+        <object-type name="bolsominion" sid="977243989516247">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="8Direction" sid="498540186850374">
@@ -110,7 +116,7 @@
         <object-type name="Keyboard" sid="796137493398965">
             <plugin id="Keyboard" />
         </object-type>
-        <object-type name="Sprite5" sid="586697002285313">
+        <object-type name="caneta" sid="586697002285313">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Bullet" sid="481926900217692">
@@ -120,6 +126,27 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="216892138954094" speed="5">
                     <frame duration="1" hotspotX="0.46729" hotspotY="0.495495" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="peseudohud" sid="261273830272632">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="685490805064345" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50096" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="damares" sid="231396588767688">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="770465295793759">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="490762396625120" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
